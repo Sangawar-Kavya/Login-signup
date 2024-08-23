@@ -1,0 +1,76 @@
+#container{
+    margin: auto;
+    margin-top: 200px;
+    width: 600px;
+    background: rgb(255, 255, 255);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.headerContent{
+    color: #201E43;
+    font-size: 2.4em;
+}
+.inputs{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.inputValues{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background: rgb(211, 210, 210);
+    border-radius: 10px;
+}
+i{
+    margin: 0px 30px;
+    color: #201E43;
+}
+input{
+    border: 0;
+    outline: 0;
+    height: 50px;
+    width: 350px;
+    background: transparent;
+    font-size: large;
+}
+.passwordIssue{
+    padding-left: 50px;
+    margin-top: 20px;
+    color: #201E43;
+}
+.passwordIssue span{
+    color: #01748e;
+    cursor: pointer;
+}
+
+.submitLoginValues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    gap: 30px;
+}
+.submit{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 50px;
+    color: #EEEEEE;
+    background-color: #201E43 ;
+    margin: 50px auto;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.colorChange{
+    background: rgb(211, 210, 210);
+    color: #201E43;
+}
